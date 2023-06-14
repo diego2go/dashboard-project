@@ -81,6 +81,32 @@ input[type="search"] {
     display: grid;
     grid-template: repeat(auto-fit, minmax(50px, min-content)) / 1fr;
     gap: 25px;
+    padding: 1em;
+}
+
+.logo-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo {
+    max-width: 40px;
+    justify-self: center;
+}
+
+.side-links li {
+    padding: 1em 0;
+    font-size: 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+}
+
+.icon {
+    max-width: 1.25rem;
+    justify-self: center;
 }
 
 .main {
