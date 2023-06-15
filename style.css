@@ -57,6 +57,11 @@ input[type="search"] {
 
 .profile-name {
     grid-area: profile-name;
+    justify-self: start;
+}
+
+.welcome-msg {
+    justify-self: start;
 }
 
 .welcome-bar{
@@ -65,6 +70,7 @@ input[type="search"] {
     grid-template-areas: 
         "profile-pic welcome-msg . link1 link2 link3"
         "profile-pic profile-name . link1 link2 link3";
+    place-items: center;
 }
 
 .welcome-bar a:nth-of-type(1) {
