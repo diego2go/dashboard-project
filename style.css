@@ -119,6 +119,7 @@ input[type="search"] {
 }
 
 .main {
+    padding: 2em 1em;
     grid-area: main;
     display: grid;
     gap: 1rem;
