@@ -166,7 +166,7 @@ input[type="search"] {
     width: 1rem;
     grid-area: share;
 }
-.card 
+
 .announcements {
     grid-area: announcements;
 }
