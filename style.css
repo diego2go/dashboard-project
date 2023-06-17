@@ -171,6 +171,11 @@ input[type="search"] {
     grid-area: announcements;
 }
 
+.announcements-card {
+    display: grid;
+    gap: 20px;
+}
+
 .trending {
     grid-area: trends;
 }
