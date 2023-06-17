@@ -17,9 +17,10 @@ img {
         "sidebar main";
 }
 
-.grid {
+.card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 18px;
 }
 
 .header {
@@ -133,6 +134,39 @@ input[type="search"] {
     grid-area: projects;
 }
 
+.card {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, minmax(1fr, min-content));
+    grid-template-areas:
+        "title title title title title title title"
+        "content content content content content content content"
+        " . . . . star read share";
+    gap: 18px;
+}
+
+.project-title{
+    grid-area: title;
+}
+
+.project-summary {
+    grid-area: content;
+}
+ .fav{
+    width: 1rem;
+    grid-area: star;
+}
+
+.read-later {
+    width: 1rem;
+    grid-area: read;
+}
+
+.share {
+    width: 1rem;
+    grid-area: share;
+}
+.card 
 .announcements {
     grid-area: announcements;
 }
