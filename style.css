@@ -179,3 +179,12 @@ input[type="search"] {
 .trending {
     grid-area: trends;
 }
+
+.trending .item {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "profile-pic username"
+        "profile-pic project";
+}
