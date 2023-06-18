@@ -10,8 +10,8 @@ img {
 
 .grid-layout {
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 2fr 7fr;
+    grid-template-rows: 1fr 4fr;
     grid-template-areas: 
         "sidebar header"
         "sidebar main";
