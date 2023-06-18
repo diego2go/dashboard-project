@@ -107,11 +107,10 @@ input[type="search"] {
 }
 
 .side-links li {
-    padding: 1em 0;
+    padding: 8px 0;
     font-size: 1.25rem;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 15px;
 }
 
 .icon {
