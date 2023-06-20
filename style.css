@@ -84,6 +84,7 @@ input[type="search"] {
         "profile-pic welcome-msg . link1 link2 link3"
         "profile-pic profile-name . link1 link2 link3";
     place-items: center;
+    gap: 12px;
 }
 
 .welcome-bar a:nth-of-type(1) {
@@ -96,6 +97,14 @@ input[type="search"] {
 
 .welcome-bar a:nth-of-type(3) {
     grid-area: link3;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #0284c7;
+    color: #fff;
+    padding: 0.5em 2em;
+    border-radius: 24px;
 }
 
 .sidebar {
