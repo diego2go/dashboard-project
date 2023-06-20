@@ -87,6 +87,11 @@ input[type="search"] {
     gap: 12px;
 }
 
+.welcome-bar .profile-pic{
+    max-width: 60px;
+    justify-self: end;
+}
+
 .welcome-bar a:nth-of-type(1) {
     grid-area: link1;
 }
