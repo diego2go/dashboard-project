@@ -211,6 +211,10 @@ input[type="search"] {
     grid-area: content;
 }
 
+.project-summary, .gray-text{
+    color: #656565;
+}
+
 .card .icon{
     width: 1.25rem;
     align-self: end;
