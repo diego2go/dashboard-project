@@ -42,8 +42,9 @@ body {
     align-items: center;
 }
 
-.search-icon {
+.search.icon {
     grid-area: icon;
+    justify-self: end;
 }
 
 input[type="search"] {
