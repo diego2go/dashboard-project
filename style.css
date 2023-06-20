@@ -49,6 +49,12 @@ body {
 
 input[type="search"] {
     grid-area: search;
+    border-radius: 15px;
+    padding: 8px 15px;
+    background-color: #e2e8f0;
+    min-height: 2em;
+    max-width: 100%;
+    border: none;
 }
 
 .notifications {
