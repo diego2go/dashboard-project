@@ -65,7 +65,7 @@ input[type="search"] {
 
 .profile-pic {
     grid-area: profile-pic;
-    max-width: 30px;
+    max-width: 40px;
     border-radius: 50%;
 }
 
