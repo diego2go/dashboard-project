@@ -182,9 +182,6 @@ input[type="search"] {
         "content content content content content content content"
         " . . . . star read share";
     gap: 18px;
-    background-color: #fff;
-    padding: 1em;
-    border-radius: 16px;
 }
 
 .project-title{
@@ -232,4 +229,11 @@ input[type="search"] {
     grid-template-areas: 
         "profile-pic username"
         "profile-pic project";
+}
+
+.card, .announcements-card, .trending {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px gray;
 }
