@@ -231,7 +231,7 @@ input[type="search"] {
         "profile-pic project";
 }
 
-.card, .announcements-card, .trending {
+.card, .announcements-card, .trending-card {
     background-color: #fff;
     padding: 1em;
     border-radius: 16px;
