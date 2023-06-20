@@ -71,6 +71,7 @@ input[type="search"] {
 .profile-name {
     grid-area: profile-name;
     justify-self: start;
+    font-weight: 700;
 }
 
 .welcome-msg {
@@ -90,6 +91,11 @@ input[type="search"] {
 .welcome-bar .profile-pic{
     max-width: 60px;
     justify-self: end;
+}
+
+.welcome-bar .profile-name{
+    font-size: 1.25rem;
+    align-self: start;
 }
 
 .welcome-bar a:nth-of-type(1) {
