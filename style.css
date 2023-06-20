@@ -92,11 +92,17 @@ input[type="search"] {
     grid-template: repeat(auto-fit, minmax(50px, min-content)) / 1fr;
     gap: 25px;
     padding: 1em;
+    color: white;
+    background-color: #0284c7;
+}
+
+.sidebar .logo, .sidebar .icon{
+    filter: invert();
 }
 
 .logo-section {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(40px, min-content));
     gap: 15px;
     align-items: center;
 }
@@ -110,7 +116,8 @@ input[type="search"] {
     padding: 8px 0;
     font-size: 1.25rem;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(40px, min-content));
+    gap: 15px;
 }
 
 .icon {
