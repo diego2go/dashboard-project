@@ -31,6 +31,7 @@ body {
     grid-area: header;
     display: grid;
     grid-template: 1fr 1fr / 1fr;
+    box-shadow: 0 2px 8px  gray;
 }
 
 .search-bar {
