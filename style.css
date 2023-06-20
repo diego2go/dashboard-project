@@ -24,7 +24,7 @@ body {
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 18px;
+    gap: 24px;
 }
 
 .header {
@@ -162,7 +162,7 @@ input[type="search"] {
     padding: 2em 1em;
     grid-area: main;
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
     grid-template: 1fr 1fr / 5fr 2fr;
     grid-template-areas: 
         "projects announcements"
