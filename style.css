@@ -182,6 +182,17 @@ input[type="search"] {
         "content content content content content content content"
         " . . . . star read share";
     gap: 18px;
+    position: relative;
+}
+
+.card::after{
+    position: absolute;
+    content: "";
+    background-color: #eeb33b;
+    height: 100%;
+    width: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .project-title{
@@ -234,6 +245,6 @@ input[type="search"] {
 .card, .announcements-card, .trending-card {
     background-color: #fff;
     padding: 1em;
-    border-radius: 16px;
+    border-radius: 8px;
     box-shadow: 1px 1px 5px gray;
 }
