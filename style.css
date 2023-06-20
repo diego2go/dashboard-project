@@ -177,7 +177,6 @@ input[type="search"] {
 .card {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(3, minmax(1fr, min-content));
     grid-template-areas:
         "title title title title title title title"
         "content content content content content content content"
