@@ -259,6 +259,11 @@ input[type="search"] {
         "profile-pic project";
 }
 
+.trending-card{
+    display: grid;
+    gap: 32px;
+}
+
 .card, .announcements-card, .trending-card {
     background-color: #fff;
     padding: 1.5em;
