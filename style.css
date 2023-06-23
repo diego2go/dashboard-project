@@ -38,7 +38,7 @@ body {
 
 .search-bar {
     display: grid;
-    grid-template-columns: 1fr 7fr 1fr 1fr 1fr 3fr;
+    grid-template-columns: 1fr 8fr 1fr 1fr 1fr 2fr;
     grid-template-areas: 
         "icon search . notifications profile-pic profile-name";
     gap: 1em;
@@ -60,14 +60,16 @@ input[type="search"] {
     border: none;
 }
 
-.notifications {
+.notifications.icon {
     grid-area: notifications;
+    justify-self: end;
 }
 
 .profile-pic {
     grid-area: profile-pic;
     max-width: 40px;
     border-radius: 50%;
+    justify-self: center;
 }
 
 .profile-name {
