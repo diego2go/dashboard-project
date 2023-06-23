@@ -117,6 +117,10 @@ input[type="search"] {
     border-radius: 24px;
 }
 
+.btn:hover {
+    opacity: 0.5;
+}
+
 .sidebar {
     grid-area: sidebar;
     display: grid;
