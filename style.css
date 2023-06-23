@@ -157,7 +157,7 @@ input[type="search"] {
 }
 
 .main {
-    padding: 2em 1em;
+    padding: 2em 1.5em;
     grid-area: main;
     display: grid;
     gap: 1.5rem;
