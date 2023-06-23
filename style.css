@@ -277,7 +277,7 @@ input[type="search"] {
 
 .card, .announcements-card, .trending-card {
     background-color: #fff;
-    padding: 1.5em;
+    padding: 1.75em;
     border-radius: 8px;
     box-shadow: 4px 4px 4px #cacfd6;
     font-size: 0.875rem;
